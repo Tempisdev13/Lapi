@@ -1,0 +1,552 @@
+
+body{
+    background-color:#F1F2F3;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Varela Round', sans-serif; 
+   
+}
+
+.card1{
+    background-color: #000;
+    width: 100%;
+    color: #000;
+
+}
+.ejmpa{
+    border-radius: 10px;
+    height: 100%;
+}
+.card2{
+    margin-top: 15px;
+    
+    background-color: #EF9A02;
+    border-radius: 10px;
+    width: 100%;
+    height:auto;  
+    
+}
+
+#rest{
+    font-size: 8px;
+    text-align: left;
+}
+
+#txt-search{
+    font-size: 14px;
+    margin:10px;
+    text-align: center;
+}
+.search{
+background-color: white;
+height: 40px;
+width: 100%;
+border-radius: 10px;
+}
+
+
+    .eng{
+        margin-top: 15px;
+        height: 70px;
+    }
+    .cont-card-2{
+        text-align: center;
+        
+    }
+    #zona{
+        font-size: 16px;
+        color: white;
+        font-weight: 600;
+    }
+    #desc-zona{
+        font-size: 16px;
+        color: white;
+        font-weight: 400;
+    }
+
+    #servicios{
+        color: #0187A3;
+        font-size: 48px;
+        text-align: center;
+    }
+    .btn-servicios{
+        height: 160px;
+        width:175px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 15px;
+        box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.156);
+        margin-bottom: 50px;
+    }
+    .img-servicios{
+        margin-top: 20px;
+        height: 90px;
+        text-align: center;
+    }
+
+    #num{
+        color:white;
+        font-size: 17px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .nu{
+        margin-left: 10px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .nombre-servicios{
+        font-size: 16px;
+        font-weight: 600;
+        color: #0187A3;
+        margin-top: 10px;
+    }
+    .conoce{
+        background-color: transparent;
+        border-radius: 5px;
+        height: 35px;
+        width: 70%;
+        border: 2px solid white;
+     
+        
+    }
+    #txt-mas{
+        font-size: 14px;
+        line-height: 30px;
+        color: white;
+        text-align: center;
+        
+    }
+    .card2-m{
+        margin: 25px;
+    }
+
+    .cardI{
+        height: 350px;
+        width: 100%;
+        border-radius: 10px;
+        background-color:#16BDC0;
+        box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.156);
+        
+    }
+
+    .cardU{
+        height: 350px;
+        width: 100%;
+        border-radius: 10px;
+        background-color:#EF9A02;
+        box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.156);
+
+    }
+    .ser{
+        margin-bottom: 45px;
+    }
+
+    
+    .cardP{
+        height: 350px;
+        width: 100%;
+        border-radius: 10px;
+        background-color:#ffffff;
+        box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.156);
+        margin-top: 25px;
+    }
+    
+    .vir{
+        margin-top: 30px;
+    }
+
+    #imp{
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    #impp{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .inf{
+        width: auto;
+        height: 35px;
+        border-radius: 10px;
+        background-color:#EF9A02;
+    }
+    .cont-1{
+        margin-bottom: 15px;
+    }
+
+    .cardU2{
+        height: 165px;
+        width: 100%;
+        border-radius: 10px;
+        background-color:#E97306;
+        box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.156);
+        margin-bottom: 20px;
+    }
+
+    .cardU2W{
+        height: 165px;
+        width: 100%;
+        border-radius: 10px;
+        background-color:#ffffff;
+        box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.156);
+        margin-bottom: 20px;
+    }
+    .cardU2B{
+        height: 165px;
+        width: 100%;
+        border-radius: 10px;
+        background-color:#8CC9D5;
+        box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.156);
+        margin-bottom: 20px;
+    }
+    .col-6{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .fazul{
+        background-image: url("img/b.png");
+        height: auto;
+        background-size:100rem;
+    }
+    
+    .fnaranja{
+        background-image: url("img/1611089062827-891.jpg");
+        height: auto;
+        background-size:150rem;
+       
+    }
+    .fb{
+        background-color: white;
+        width: 100%;
+        height: auto;
+        box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.156);
+        margin-bottom: 30px;
+    }
+
+    .fvirus{
+        background-image: url("img/v1.jpg");
+        height: auto;
+        background-size:150rem;
+       
+    }
+
+
+    .card-title{
+        background-color:#E97306;
+        margin: -17px;
+        margin-bottom: 15px;
+        border-radius: 10px 10px 0px 0px;
+        height: 12px;
+    }
+    .card-body{
+        border-radius: 20px;
+        
+    }
+
+    .contenedor{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+    }
+
+   .xs{
+       margin-bottom: 30px;
+   }
+
+    .card{
+        border-radius: 10px;
+        
+    }
+
+    .card-subtitle{
+        margin-top: 15px;
+        color:#2491a7;
+        font-size: 12px;
+        font-weight: 600;
+
+    }
+    .card-subtitle2{
+        margin-top: 15px;
+        color:#141414;
+        font-size: 12px;
+        font-weight: 400;
+
+    }
+    .card-price{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .card-price-org{
+        font-size: 14px;
+        font-weight: 400;
+        color:#E97306;
+    }
+    .bt-info{
+        background-color:#E97306;
+        color: rgb(255, 255, 255);
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+    }
+
+    .bt-info:hov{
+        background-color:#d66800;
+        
+    }
+
+    .bt-info-txt{
+        line-height: 30px;
+    }
+
+    button{
+        border: none;
+        outline:none;
+    }
+
+    .prom{
+        margin-bottom: 45px;
+    }
+
+    
+    .zona{
+        margin-bottom: 15px;
+    }
+    .card-prom{
+        background-color: white;
+        margin-top: 60px;
+        height: auto;
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 60px;
+    }
+
+    .card-detalles{
+        background-color: white;
+        height: auto;
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 60px;
+    }
+
+
+    input[type="text"]{
+        margin-bottom: 40px;
+        background:rgb(255, 255, 255);
+        width:90%;
+        border: 0;
+        border-bottom: 1px solid black;
+        outline: none;
+        font-size: 16px;
+    }
+
+    input[type="date"]{
+        margin-bottom: 40px;
+        background:rgb(255, 255, 255);
+        width:90%;
+        border: 0;
+        border-bottom: 1px solid black;
+        outline: none;
+        font-size: 16px;
+    }
+    
+
+    .chek{
+        font-size: 18px;
+        
+    }
+
+    #question{
+        text-align: right;
+    }
+
+    select{
+        margin-bottom: 20px;
+        background:rgb(255, 255, 255);width:90%;
+        outline: none;
+        font-size: 16px;
+        height: 40px;
+        border-radius: 5px;
+    }
+    #card-prom-text{
+        margin: 20px;
+        font-size: 36px;
+        color:#E97306;
+
+        font-weight: 700;
+    }
+    #titulo-fnaranja{
+        font-size: 28px;
+        color: white;
+    }
+    #numero{
+        color: white;
+        font-size: 28px;
+    }
+
+#titulo-fnaranja2{
+    font-size: 32px;
+    color: white;
+}
+    .cont-naranja{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    #horario{
+        color: white;
+        font-size: 24px;
+        margin-bottom: 0;
+    }
+    .mycontent-right {
+        border-right: 1px dashed rgb(255, 255, 255);
+      }
+      
+      @media (min-width: 992px) {
+        .col-md-border:not(:last-child) {
+            border-right: 1px solid #d7d7d7;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        .col-md-border + .col-md-border {
+            border-left: 1px solid #d7d7d7;
+            margin-left: -1px;
+        }
+    }
+
+    .foter{
+        background-image: url("img/1609274009221-085.jpg");
+        height: auto;
+        background-size:100rem;
+    }
+
+    .pagina{
+        font-size: 12px;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+    .icoredes{
+        color: white;
+        font-size: 18px;
+        margin: 10px;
+    }
+    #desc-foter{
+        font-size: 10px;
+        color: white;
+        font-weight: 300;
+        margin-top: 15px;
+    }
+    .row-fot{
+        margin-top: 50;
+    }
+
+    .m{
+        margin-top: 50px;
+    }
+    .logo{
+        width: 200px;
+    }
+
+    .foter2{
+        height: auto;
+        width: 100%;
+        background-color: #005A74;
+        
+    }
+    #foter2-txt{
+        color: white;
+        font-size: 12px;
+        margin: 10px;
+        text-align: center;
+    }
+    .cont1{
+        margin: 2px;
+    }
+
+#nav-tx{
+    color: white;
+    font-size: 16px;
+    margin: 15px;
+}
+
+#icon-tx{
+    margin-right: 5px;
+}
+.navbar{
+    box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.156);
+
+}
+    
+    .nav1{
+        height: auto;
+        width: 100%;
+        background-color: #EF9A02;
+    }
+        .nav2{
+        height: auto;
+        width: 100%;
+        margin-bottom: 25px;
+
+        background-color: #EF9A02;
+    }
+    #nav1-txt-p{
+        color: white;
+        font-size: 24px;
+        margin: 10px;
+        text-align: center;
+    }
+    
+    #nav1-txt{
+        color: white;
+        font-size: 12px;
+        margin: 10px;
+        text-align: center;
+    }
+
+
+    #card-i-titulo{
+        font-size: 32px;
+        color: white;
+    }
+    #card-i-subtitulo{
+        font-size: 18px;
+        color: white;
+    }
+
+    .nombre-p{
+        font-size: 24px;
+        color:#2491a7;
+
+    }
+    .nombre-p2{
+        font-size: 18px;
+        color:#2491a7;
+        font-weight: 600;
+        margin-top: 15px;
+
+    }
+
+
+    .detalle-p{
+        font-size: 16px;
+        color:#1f1f1f;
+
+    }
+    
+    .precio-p{
+        font-size: 48px;
+        color:#2491a7;
+        font-weight: 600;
+    }
+
+    #garantia-p{
+        font-size: 18px;
+        color:#2491a7;
+        font-family: 'Poppins', sans-serif;
+
+    }
+    .far{
+        font-size: 24px;
+    }
+    #precio-p{
+        font-size: 12px;
+    }
