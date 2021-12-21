@@ -166,7 +166,7 @@ border-radius: 10px;
 
     
     .cardP{
-        height: 350px;
+        height: auto;
         width: 100%;
         border-radius: 10px;
         background-color:#ffffff;
@@ -399,7 +399,6 @@ border-radius: 10px;
     #card-prom-text{
         font-size: 36px;
         color:#E97306;
-
         font-weight: 700;
     }
     #titulo-fnaranja{
