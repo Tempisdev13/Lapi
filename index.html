@@ -22,7 +22,8 @@
 <body>
 
 
-    <nav class="navbar navbar-expand-lg nav1">
+    <nav class="navbar navbar-expand-lg nav1 d-none d-md-block d-lg-block
+    k">
         <div class="container">
             <p id="nav1-txt-p"><strong>Lapi</strong>Linea</p>
 
@@ -114,8 +115,11 @@
                 <div class="row justify-content-between">
                     <div class="col-12">
                         <div class="container-fluid fvirus">
-                            <div class="container text-center">
-                                <p>sa</p>
+                            <div class="fv text-center">
+                                <p id="txt-search">Encuentra el estudio que necesitas
+                                </p>
+                                <input type="text" placeholder="Buscar" id="inp_buscar" class="search">
+                                <i class="fas fa-search"></i>
                             </div>
                         </div>
                     </div>
@@ -127,9 +131,9 @@
                                     <p id="zona">ZONA COVID-19<br><span id="desc-zona">​Conoce las sucursales
                                             especializadas
                                             para atender al público exclusivo con Pruebas COVID-19.</span></p>
-                                    <div class="conoce">
+                                    <button class="conoce">
                                         <p id="txt-mas">Conoce más</p>
-                                    </div>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -178,14 +182,14 @@
 
         <p id="servicios">Nuestros Servicios</p>
         <div class="row justify-content-between">
-            <div class="col-auto d-flex text-center">
+            <div class="col-lg-2 col-md-2 col-xs-12  text-center">
                 <div class="btn-servicios">
                     <img src="img/getFile.svg" alt="" class="img-servicios">
                     <p class="nombre-servicios">Estudios</p>
                 </div>
 
             </div>
-            <div class="col-auto text-center">
+            <div class="col-lg-2 col-md-2 col-xs-12  text-center">
                 <div class="btn-servicios">
                     <img src="img/getFile2.svg" alt="" class="img-servicios">
                     <p class="nombre-servicios">Promociones</p>
@@ -193,7 +197,7 @@
                 </div>
             </div>
 
-            <div class="col-auto text-center">
+            <div class="col-lg-2 col-md-2 col-xs-12  text-center">
                 <div class="btn-servicios">
                     <img src="img/getFile3.svg" alt="" class="img-servicios">
                     <p class="nombre-servicios">Resultados</p>
@@ -202,7 +206,7 @@
 
             </div>
 
-            <div class="col-auto text-center">
+            <div class="col-lg-2 col-md-2 col-xs-12  text-center">
                 <div class="btn-servicios">
                     <img src="img/getFile4.svg" alt="" class="img-servicios">
                     <p class="nombre-servicios">Facturación</p>
@@ -210,7 +214,7 @@
                 </div>
 
             </div>
-            <div class="col-auto text-center">
+            <div class="col-lg-2 col-md-2 col-xs-12  text-center">
                 <div class="btn-servicios">
                     <img src="img/getFile5.svg" alt="" class="img-servicios">
                     <p class="nombre-servicios">Sucursales</p>
@@ -240,23 +244,22 @@
 
     <div class="container cont-1">
         <div class="row justify-content-between">
-            <div class="col-6 text-center">
+            <div class="col-lg-6 col-xs-12 text-center">
                 <div class="cardI">
                     <div class="card2-m">
-                    
                     <img src="img/engrane.png" alt="" class="img-fluid eng">
                     <p id="card-i-titulo">AVISO IMPORTANTE<br></p>
                     <p><span id="card-i-subtitulo">En Lapi Laboratorio Médico salvaguardamos la salud y bienestar de todos y cada uno de nuestros pacientes y colaboradores.
 
                     </span></p>
-                    <div class="conoce">
+                    <button class="conoce">
                         <p id="txt-mas">Conoce más</p>
-                    </div>
+                    </button>
                 </div>
             </div>
             </div>
 
-            <div class="col-6">
+            <div class="col-lg-6 col-xs-12 text-center">
                 <div class="cardP">
                     <div class="row">
                         <div class="col-8 text-center">
@@ -286,7 +289,7 @@
     <div class="container cont-1">
 
         <div class="row justify-content-between">
-            <div class="col-6">
+            <div class="col-lg-6 col-md-6 col-xs-12">
                 <div class="row">
                     <div class="col-12">
                         <div class="cardU2">
@@ -299,18 +302,18 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 ">
+                    <div class="col-lg-6 col-md-6 col-xs-12">
                         <div class="cardU2W"></div>
 
                     </div>
 
-                    <div class="col-6 ">
+                    <div class="col-lg-6 col-md-6 col-xs-12">
                         <div class="cardU2B"></div>
 
                     </div>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-lg-6 col-md-6 col-xs-12">
                 <div class="cardU"></div>
             </div>
         </div>
@@ -439,7 +442,7 @@
     <div class="container-fluid fnaranja">
         <div class="container text-center">
             <div class="row">
-                <div class="col-6  col-md-border">
+                <div class="col-lg-6 col-md-6 col-xs-12  col-md-border">
                     <div class="cont-naranja">
                         <p id="titulo-fnaranja">Horarios de atencion personal en <strong>Lapilínea</strong>
                         </p>
@@ -448,9 +451,11 @@
                         <p id="horario">Domingos de 8:00 am a 12:00 pm </p>
                     </div>
                 </div>
-                <div class="col-6">
-                    <div class="cont-naranja">
+        
+                <hr  class="linea d-none d-sm-block d-md-none" style="height:5px;border:none;color:rgb(255, 255, 255);background-color:rgb(255, 255, 255);" />
 
+                <div class="col-lg-6 col-md-6 col-xs-12  col-md-border">
+                    <div class="cont-naranja">
                         <p id="titulo-fnaranja2"><strong>Llámanos a Lapilínea</strong></p>
                         <p id="numero">(55)5593-7517</p>
                     </div>
@@ -462,9 +467,9 @@
 
 
     <div class="container-fluid foter">
-        <div class="container">
+        <div class="container text-center">
             <div class="row">
-                <div class="col">
+                <div class=" col-lg-3 col-md-3 col-xs-12">
                     <div class="m">
                         <img src="img/logo_w.svg" alt="" class="img-fluid logo">
                         <p id="desc-foter">Estamos Certificados bajo la Norma ISO 9001-2015 y acreditados por EMA en la
@@ -472,7 +477,7 @@
                             servicios.</p>
                     </div>
                 </div>
-                <div class="col">
+                <div class=" col-lg-2 col-md-3 col-sm-6 col-xs-12">
                     <div class="m">
 
                         <p class="pagina">Nosotros</p>
@@ -481,7 +486,7 @@
                         <p class="pagina">Servicios</p>
                     </div>
                 </div>
-                <div class="col">
+                <div class=" col-lg-2 col-md-3 col-sm-6 col-xs-12">
                     <div class="m">
 
                         <p class="pagina">Blog</p>
@@ -490,7 +495,7 @@
                         <p class="pagina">Avisos de privacidad</p>
                     </div>
                 </div>
-                <div class="col">
+                <div class=" col-lg-2 col-md-3 col-sm-6 col-xs-6">
                     <div class="m">
 
                         <p class="pagina">Siguenos</p>
@@ -502,7 +507,7 @@
                         <p class="pagina">Teléfono: (55) 5593-7517</p>
                     </div>
                 </div>
-                <div class="col">
+                <div class=" col-lg-3 col-md-3 col-sm-6 col-xs-6">
                     <div class="m">
 
                         <img src="img/cap.png" class="img-fluid logo" alt="">
