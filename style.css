@@ -361,9 +361,9 @@ border-radius: 10px;
     input[type="text"]{
         margin-bottom: 40px;
         background:rgb(255, 255, 255);
-        width:90%;
+        width:100%;
         border: 0;
-        border-bottom: 1px solid black;
+        border-bottom: 1px solid rgb(155, 155, 155);
         outline: none;
         font-size: 16px;
     }
@@ -371,7 +371,7 @@ border-radius: 10px;
     input[type="date"]{
         margin-bottom: 40px;
         background:rgb(255, 255, 255);
-        width:90%;
+        width:100%;
         border: 0;
         border-bottom: 1px solid black;
         outline: none;
@@ -577,4 +577,54 @@ border-radius: 10px;
     }
     #precio-p{
         font-size: 12px;
+    }
+
+    .f-contacto{
+        background-image: url("img/1611089062827-891.jpg");
+        height: auto;
+        background-size:200rem;
+        margin-top: -25px;
+    }
+
+
+    #card-contact-text{
+        font-size: 32px;
+        color:#2491a7;
+        font-weight: 700;
+    }
+    #card-contact-sub{
+        font-size: 16px;
+        color:#EF9A02;
+        font-weight: 700;
+    }
+
+    
+    select[name="menu"]{
+        margin-bottom: 40px;
+        background:rgb(255, 255, 255);
+        width:100%;
+        border: 1px solid rgb(155, 155, 155);
+        outline: none;
+        font-size: 16px;
+    }
+
+    textarea[name="textarea"]{
+        margin-bottom: 40px;
+        background:rgb(255, 255, 255);
+        width:100%;
+        border: 1px solid rgb(155, 155, 155);
+        outline: none;
+        font-size: 16px;
+    }
+
+    input[type="submit"]{
+        margin-bottom: 40px;
+        background:rgb(238, 128, 2);
+        color: white;
+        width:20%;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        font-size: 16px;
+        height: 40px;
     }
